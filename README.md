@@ -38,10 +38,12 @@ The expected file structure for the inference input data is outlined below. The 
 YOUR_INPUT_PATH/
 ├── seq1/
 │   ├── frame_0001.png
-│   └── frame_0002.png
-└── seq2/
-    ├── frame_0001.png
-    └── ...
+│   ├── frame_0002.png
+│   └── ...
+├── seq2/
+│   ├── frame_0001.png
+│   ├── frame_0002.png
+│   └── ...
 ```
 For additional acceleration using NVIDIA TensorRT, please execute the following command. Please note that utilizing TensorRT may introduce a slight degradation in the output quality while providing significant performance gains. 
 
