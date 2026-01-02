@@ -64,5 +64,18 @@ python inference.py \
 
 When executing the TensorRT command for the first time with a new input resolution, you may observe that the process takes an extended period to build the dedicated TensorRT engine. We kindly ask for your patience. Please note that this engine compilation is a one-time setup step for that specific resolution, essential for enabling subsequent accelerated inference at the same setting.
 
+## Citation
+
+If you find this work useful, please consider citing:
+
+```bibtex
+@article{shiu2025stream,
+  title={Stream-DiffVSR: Low-Latency Streamable Video Super-Resolution via Auto-Regressive Diffusion},
+  author={Shiu, Hau-Shiang and Lin, Chin-Yang and Wang, Zhixiang and Hsiao, Chi-Wei and Yu, Po-Fan and Chen, Yu-Chih and Liu, Yu-Lun},
+  journal={arXiv preprint arXiv:2512.23709},
+  year={2025}
+}
+```
+
 <!--## Acknowledgement
 This project is built upon the following open-source projects: [StreamDiffusion](https://github.com/cumulo-autumn/StreamDiffusion), [StableVSR](https://github.com/claudiom4sir/StableVSR) and [TAESD](https://github.com/madebyollin/taesd). We thank all the authors for their great repos.-->
