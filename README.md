@@ -26,6 +26,20 @@ cd Stream-DiffVSR
 conda env create -f requirements.yml
 conda activate stream-diffvsr
 ```
+Users with RTX 6000 Pro or RTX 50-series GPUs may need to update their environment by following the instructions below. For more details, please refer to [Issue #10](https://github.com/jamichss/Stream-DiffVSR/issues/10).
+```
+## Conda setup for RTX 6000 Pro / RTX 50-Series GPUs
+git clone https://github.com/jamichss/Stream-DiffVSR.git
+cd Stream-DiffVSR
+# 1. Create conda environment
+conda create --prefix ./Diff_env python==3.10 -y
+# 2. Activate the environment
+conda activate ./Diff_env
+# 3. Install pip dependencies
+pip install -r requirements.txt
+pip install --upgrade transformers peft diffusers accelerate
+pip install xformers==0.0.32.post2
+```
 ### Pretrained models
 Pretrained models are available [here](https://huggingface.co/Jamichsu/Stream-DiffVSR). You don't need to download them explicitly as they are fetched with inference code.
 ### Inference
