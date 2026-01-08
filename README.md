@@ -36,7 +36,7 @@ conda create --prefix ./Diff_env python==3.10 -y
 # 2. Activate the environment
 conda activate ./Diff_env
 # 3. Install pip dependencies
-pip install -r requirements.txt
+pip install -r requirements-cu12.txt
 pip install --upgrade transformers peft diffusers accelerate
 pip install xformers==0.0.32.post2
 ```
