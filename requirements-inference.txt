@@ -5,7 +5,7 @@ diffusers>=0.31.0
 transformers>=4.45.0
 xformers
 Pillow>=10.0.0
-numpy>=2.0.0
+numpy==2.0.2
 safetensors>=0.4.5
 matplotlib
 # Optional: Required for TensorRT acceleration
