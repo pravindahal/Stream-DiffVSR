@@ -1,13 +1,13 @@
-torch==2.8.0
-torchvision==0.23.0
+torch>=2.0.0
+torchvision
 accelerate>=0.34.0
 diffusers>=0.31.0
 transformers>=4.45.0
 xformers
-Pillow==10.4.0
-numpy==1.26.4
-safetensors==0.4.5
-matplotlib==3.9.2
+Pillow>=10.0.0
+numpy>=2.0.0
+safetensors>=0.4.5
+matplotlib
 # Optional: Required for TensorRT acceleration
-onnxruntime-gpu==1.20.1
-tensorrt==10.7.0
+onnxruntime-gpu>=1.19.0
+tensorrt>=10.0.0
